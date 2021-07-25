@@ -25,4 +25,10 @@ Once the user successfully logins he/she is directed to the home page where they
 
 Edit Todos
 
+![Screenshot (198)](https://user-images.githubusercontent.com/69718746/126902149-9f85bd70-a667-463e-8cb6-69804363835d.png)
+
+If the user clicks the Edit button against any of thier todo they will be directed to a Edit Task page where the user can either edit their task or mark the task as completed.
+
+
+
 
