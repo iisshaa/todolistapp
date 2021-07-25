@@ -19,7 +19,7 @@ Once the user is created the page is redirected to the login page which asks for
 
 Home Page
 
-![Screenshot (202)](https://user-images.githubusercontent.com/69718746/126902055-d524452d-8d52-42cf-a7d2-1ff38ee9142b.png)
+![Screenshot (203)](https://user-images.githubusercontent.com/69718746/126902503-ba1ed061-e393-447a-92dc-2d770bc45de3.png)
 
 Once the user successfully logins he/she is directed to the home page where they can add their todos by submitting the task form. The Statistics section shows the total number of tasks added by the user and also the number of tasks completed and uncompleted. The recently added tasks are shown first followed by others. As its a multiuser login todo app he/she can only see thier respective todos. When the user gets authenticated then only they can access the logout option.
 
