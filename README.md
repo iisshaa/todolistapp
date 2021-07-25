@@ -7,9 +7,12 @@ The features provided by the web app are as follows:
 
 SignUp Page
 
+![Screenshot (195)](https://user-images.githubusercontent.com/69718746/126900985-4a0487cd-cb77-4435-82e5-55a8caf50311.png)
 
 The signup form asks for user's details to create an account after which they will be directed to the login page.
 
-Login Pagr
+Login Page
+
+
 
 
