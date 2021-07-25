@@ -1,0 +1,22 @@
+{% extends 'partial/base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}Sign Page{% endblock title %}
+
+{% block content %}
+
+    <h2>SignUp</h2>
+    <hr>
+    <div class="col-sm-9  alert alert-info">
+     {% if messages %}
+        {% for message in messages %}
+        <p>{{message}}</p>
+        {% endfor %}
+    {% endif %}
+    <form method="post" action="">
+        {% csrf_token %}
+        {{form|crispy}}
+       <button class="btn btn-info">Submit</button>
+        <p>Already an User? <a href="{% url 'login' %}">Log In</a></p>
+    </form>
+</div>
+{% endblock content %}

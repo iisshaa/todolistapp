@@ -1,0 +1,28 @@
+{% extends "partial/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+{% if not user.is_authenticated %}
+<div class="col-md-9 alert alert-danger">
+<h4 style="text-align:center">Please login to access the app!!</h4>
+</div>
+{% endif %}
+<div class="col-md-9 ">
+<h1> Login </h1>
+ <hr/>
+    <div class="alert alert-success">
+    {% if messages %}
+        {% for message in messages %}
+        <p>{{message}}</p>
+    </div>
+        {% endfor %}
+    {% endif %}
+    <form method="post" action="">
+        {% csrf_token %}
+        {{form|crispy}}
+        <button class="btn btn-info">Submit</button>
+       <p> Don't have an Account? <a href="{% url 'register' %}">SignUp</a></p>
+
+    </form>
+</div>
+
+{% endblock %}
