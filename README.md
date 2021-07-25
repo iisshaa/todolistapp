@@ -7,4 +7,6 @@ The features provided by the web app are as follows:
 
 SignUp Page
 
+![Screenshot (194)](https://user-images.githubusercontent.com/69718746/126900238-de4d8096-2f30-4ab0-ba13-0e8f050fca6a.png)
+
 
