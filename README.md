@@ -13,6 +13,6 @@ The signup form asks for user's details to create an account after which they wi
 
 Login Page
 
+![Screenshot (196)](https://user-images.githubusercontent.com/69718746/126901044-9be0c1c7-e909-4f37-9dbd-41bfaf2e7f88.png)
 
-
-
+Once the user is created the page is redirected to the login page which asks for username and password from the user. if the details are valid and the user exists he/she is redirected to his/her dashboard. The user cannot access the home page until he/she logins which is shown in the message as 'Please login to access the app'.
