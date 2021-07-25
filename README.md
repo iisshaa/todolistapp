@@ -5,11 +5,13 @@ This is basic TODO Application which incorporates CRUD functionalities and as we
 
 The features provided by the web app are as follows:
 
+
 SignUp Page
 
 ![Screenshot (195)](https://user-images.githubusercontent.com/69718746/126900985-4a0487cd-cb77-4435-82e5-55a8caf50311.png)
 
 The signup form asks for user's details to create an account after which they will be directed to the login page.
+
 
 Login Page
 
@@ -17,25 +19,27 @@ Login Page
 
 Once the user is created the page is redirected to the login page which asks for username and password from the user. if the details are valid and the user exists he/she is redirected to his/her dashboard. The user cannot access the home page until he/she logins which is shown in the message as 'Please login to access the app'.
 
+
 Home Page
 
 ![Screenshot (203)](https://user-images.githubusercontent.com/69718746/126902503-ba1ed061-e393-447a-92dc-2d770bc45de3.png)
 
 Once the user successfully logins he/she is directed to the home page where they can add their todos by submitting the task form. The Statistics section shows the total number of tasks added by the user and also the number of tasks completed and uncompleted. The recently added tasks are shown first followed by others. As its a multiuser login todo app he/she can only see thier respective todos. When the user gets authenticated then only they can access the logout option.
 
-Edit Todos
 
+Edit Todos
 
 ![Screenshot (204)](https://user-images.githubusercontent.com/69718746/126902568-da8fbb4d-54b6-4c77-b004-6417893be2b9.png)
 
-
 If the user clicks the Edit button against any of thier todo they will be directed to a Edit Task page where the user can either edit their task or mark the task as completed.
+
 
 The updated details are seen as:
 
+![Screenshot (205)](https://user-images.githubusercontent.com/69718746/126902735-8a55e206-8dce-4b98-9650-855afe79f053.png)
 
 
-
+Delete Tasks
 
 
 
