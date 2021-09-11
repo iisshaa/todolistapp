@@ -37,7 +37,6 @@ DELETE TODOS
 
 If the user clicks the delete button against any of thier todo, they will be directed to delete page where a confirmation is taken from the user so as to if they really want to delete the task. If the user clicks on submit they will be redirected to the home page with that task not shown in the todo list and if the user clicks on cancel the task is not deleted and they are redirected to the home page.
 Here the meeting at 8pm-10pm task is deleted as shown below:
-![Screenshot (207)](https://user-images.githubusercontent.com/69718746/126903014-bc9ab95b-324d-41ee-9c2d-2e6ecea0c2c5.png)
 
 Through all the updates in the task form the statistics also keeps on changing.
 
